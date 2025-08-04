@@ -1,0 +1,23 @@
+{
+  "name": "thedolorosa-website",
+  "version": "1.0.0",
+  "description": "Modern website for The Dolorosa Tattoo Company",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server -p 3000",
+    "build": "echo 'Static site - no build needed'",
+    "deploy": "wrangler pages publish . --project-name thedolorosa-website"
+  },
+  "keywords": [
+    "tattoo",
+    "los-angeles",
+    "studio-city",
+    "echo-park",
+    "custom-tattoos"
+  ],
+  "author": "The Dolorosa Tattoo Company",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
